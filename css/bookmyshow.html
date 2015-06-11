@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bookmyshow.css" media="screen"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="book1.js"></script>
+</head>
+<body onLoad="submitDetails()">
+<form name="movietitles" method="get" action="theater.html">
+<div class="bmsMbox">
+<br>
+<select id="movie">
+  <option value="hw">Select Movie</option>
+  
+  </select>
+ <br>
+  <select id="date">
+  <option value="hw">Select Date</option>
+  <option>June,8</option>
+  <option>June,9</option>
+  <option>June,10</option>
+  <option>June,11</option>
+  </select>
+ <br>
+ <select  id="theater" required>
+ <option value>Select Theater</option>
+ </select>
+	<br>			
+   <select id="show">
+  <option value="hw">Select Show</option>
+  <option>morningShow 11:00 AM</option>
+  <option>noonShow 2:45 PM</option>
+  <option>firstShow 6:00 PM</option>
+  <option>secondShow 9:00 PM</option>
+  </select>
+  <br>
+   <select id="Seats">
+  <option value="hw">Select Number of Seats</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  </select>
+  <br>
+  <input type="button" value="Submit" onclick="selectShow()" id="sub">
+   <br>
+   </div>
+</form>
+</body>
+</html>

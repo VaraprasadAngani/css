@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookMyShow</title>
+    </head>
+    <body onLoad="submitDetails()">
+        <div align="center">
+            <br><br><br>
+            <form name="movietitles" method="get" action="theater.html">
+                <h3>Select Movie</h3>
+                <select name="moviet" id="mt" required>
+                    <option></option>
+                </select>
+                <br>
+                <h3>Select Date</h3>
+                <input type="date" required name="dn" id="dt" />
+                <br>
+                <h3>Theater Name</h3>
+                <select name="theater" id="tt" required>
+                    <option></option>
+                </select>
+                <br>
+                <h3>Show Time</h3>
+                <select name="shwtme" id="st" required>
+                    <option></option>
+                    <option>11.00AM</option>
+                    <option>02.00PM</option>
+                    <option>06.00PM</option>
+                    <option>09.00PM</option>
+                </select>
+                <br>
+                <h3>No. of Tickets</h3>
+                <select name="not" id="nt" required>
+                    <option></option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+                <p align="center"><button type="submit">Submit Data</button></p>
+            </form>
+        </div>
+    <script type="text/javascript" src="moviedetails.js"></script>
+    </body>
+</html>

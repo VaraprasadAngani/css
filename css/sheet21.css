@@ -1,0 +1,26 @@
+#container {
+  max-width: 1028px;
+	border: 1px solid red;
+	position: relative;
+	margin: 0 auto;
+}
+
+.line {
+	white-space: nowrap;
+	}
+
+.fluid {
+	display: inline-block;
+	width: auto;
+	max-width: 640px;
+	white-space: normal;
+	border: 1px solid blue;
+}
+
+.fixed-width {
+	display: inline-block;
+	width: 388px;
+	white-space: normal;
+	border: 1px solid blue;
+  vertical-align: top;
+}

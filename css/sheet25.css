@@ -1,0 +1,22 @@
+a:link { color: blue } 
+a:visited { color: red } 
+a:hover { font-weight: bold } 
+a:active { color: lime } 
+p::before {
+    content: "Read this -";
+}
+p::after { 
+    content: " - Remember this";
+}
+p:first-child{
+    font-family:cursive;
+}
+p:nth-child(4){
+    color:yellow !important
+}
+p:last-child{
+color:red;
+}
+p:nth-child(7){
+color:green;
+}

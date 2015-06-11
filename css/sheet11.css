@@ -1,0 +1,23 @@
+p.blo{
+margin-left:auto;
+margin-right:auto;
+width: 200px
+}
+img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto  
+}
+#ff{
+width:100px;
+height:100px;
+background-color:green;
+display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+#ss{
+display: block;
+    margin-left: auto;
+    margin-right: auto 
+	}

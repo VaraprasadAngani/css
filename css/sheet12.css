@@ -1,0 +1,19 @@
+.container {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.column1 {
+  display: table-cell;
+  line-height:200%;
+  
+}
+.column2 {
+  display: table-cell;
+  line-height:200%;
+  }
+  .column2 p img{
+  text-align:text-top;
+  }
+  

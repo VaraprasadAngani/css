@@ -1,0 +1,36 @@
+body{
+color:red;
+font-size:20px;
+}
+input{
+
+}
+.bmsMbox,#md {
+  width: 960px;
+  float: left;
+  background-color: #efefef;
+  display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+	margin-top:5%;
+}
+#movie{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#date{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#show{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#seats{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

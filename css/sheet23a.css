@@ -1,0 +1,45 @@
+
+
+p.now{
+white-space:nowrap;
+text-indent:70px;
+word-break: keep-all;
+overflow: hidden;
+ text-overflow: clip; 
+}
+
+
+p.wr{
+white-space:wrap;
+text-indent:70px;
+text-transform:uppercase;
+word-break: keep-all;
+width: 740px; 
+    border: 1px solid #000000;
+}
+
+
+p.nor{
+white-space:normal;
+text-indent:70px;
+text-transform:lowercase;
+word-break: break-all;
+ width: 740px; 
+    border: 1px solid #000000;
+}
+
+p.pwr{
+white-space:pre-wrap;
+text-indent:70px;
+text-align:center;
+}
+
+p.now1{
+white-space:nowrap;
+text-indent:70px;
+word-break: keep-all;
+overflow: hidden;
+ text-overflow: clip;
+overflow: hidden;
+    text-overflow: ellipsis; 
+	}

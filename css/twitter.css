@@ -1,0 +1,279 @@
+body{
+background-color:#f5f8fa!important;
+}
+.header{
+background-color:white;
+width:1350px;
+height:50px;
+position:fixed;
+padding:0px 0px 0px 0px;
+top:0px;
+z-index:5;
+margin-left:-7px;
+}
+
+#req{
+display:inline-block;
+width:1350px;
+height:70px;
+margin-left:-7px;
+background-color:white;
+margin-top:-110px;
+}
+#abcd{
+display:inline-block;
+height:48px;
+width:48px;
+border:0px solid;
+border-radius:6px;
+}
+#re1{
+display:inline-block;
+height:50px;
+vertical-align:middle;
+margin-left:400px;
+margin-right:50px;
+margin-top:20px;
+}
+#r1{
+display:inline-block;
+margin-left:30px;
+vertical-align:middle;
+}
+#r2{
+display:inline-block;
+margin-left:50px;
+vertical-align:middle;
+}
+#r3{
+display:inline-block;
+margin-left:50px;
+vertical-align:middle;
+}
+#r4{
+display:inline-block;
+margin-left:50px;
+vertical-align:middle;
+}
+#r5{
+display:inline-block;
+margin-left:200px;
+vertical-align:middle;
+}
+#ss{
+background-image:url('3.png');
+background-repeat: no-repeat;
+background-position:center;
+background-color:orange;
+width:1350px;
+height:350px;
+margin-left:-7px;
+}
+.a{
+position:static;
+margin-left:400;
+margin-right:300;
+width: 550px;
+padding:10px 0px 0px 0px;
+}
+#sv{
+  display: inline-block;
+      position: relative;
+	height:200px;
+	width:200px;
+}
+.s2{
+text-align:center;
+}
+#sd{
+padding:5px 0px 0px 130px;
+height:30px;
+width:30px;
+}
+.ac{
+display:inline-block;
+height:40px;
+border-style: solid;
+ border-width: 0px;
+ width:638px;
+ margin-top:-225px;
+ background-color:white;
+
+}
+.aca{
+height:70px;
+border-style: solid;
+ border-width: 0px;
+ width:638px;
+   margin-top: -14px;
+ padding:0px 0px 0px 0px;
+ background-color:white;
+}
+.b{
+position:absolute;
+margin-left:400;
+margin-right:300;
+width: 550px;
+padding:0px 0px 0px 0px;
+}
+#scs{
+width:640px;
+margin-top:180px;
+}
+.input{
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  height: 32px;
+  padding: 5px 27px 6px 12px;
+  font-size: 12px;
+  line-height: 1;
+  color: #292f33;
+  background-color: #f5f8fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 21px;
+  transition: all .2s ease-in-out;
+  float:right;
+  margin-right:300px;
+}
+#content{
+display:inline-block;
+margin-top:20px;
+}
+#profile{
+display:inline-block;
+  margin-left: 100px;
+  margin-top: -30px;
+width:280px;
+
+background-color:#f5f8fa!important;
+}
+.prDet{
+display:block;
+}
+#ssdd{
+display:inline-block;
+position:absolute;
+padding:150px 0px 0px 70px;
+margin-left:-70;
+margin-top:-150;
+}
+.table {
+    display:table;
+    width:150px;
+    height:150px;
+    padding:2px 2px 2px 2px;
+	border-radius:3px;
+}
+.row {
+    display:table-row;
+    height:50px;
+	width:150px;
+	border-radius:3px;
+}
+.cell1, .cell2, .cell3 {
+    display:table-cell;
+    width:50px;
+    height:50px;
+    border:0px;
+	padding:3px 3px 3px 3px;
+	border-radius:3px;
+}
+.qw{
+width:91px;
+height:93px;
+border-radius:3px;
+}
+#t1{
+display:inline-block;
+}
+#t2{
+display:inline-block;
+margin-left:50px;
+}
+#t3{
+display:inline-block;
+margin-left:100px;
+}
+#aa{
+  margin-top: -181;
+  z-index: 4;
+}
+#signup{
+  background-color: #e1e8ed;
+  height:200px;
+  width:200px;
+  float: right;
+  margin-top: -580;
+  margin-right: -20;
+  width:200px;
+  border-radius:20px;
+  }
+ 
+  #s3{
+  width:70px;
+  height:30px;
+  padding:3px 3px 3px 3px;
+   }
+   #trends{
+   border-radius:20px;
+   background-color:white;
+   float:right;
+   display:inline-block;
+   margin-right: 62px;
+  margin-top: -370px;
+  width:200px;
+   }
+   .floatright{
+   vertical-align:middle;
+   margin-top:10px;
+   display:inline-block;
+   margin-left:700px;
+   }
+   #right1{
+     float: right;
+  margin-right: 260;
+  margin-top: -25;
+   display:inline-block;
+      }
+	  #sv1{
+	  border-radius:20px;
+	  height:200px;
+	  width:200px;
+	    margin-top: -100px;
+		margin-left:100px;
+		display:inline-block;
+		border: solid white;
+  overflow: hidden;
+	  }
+	  #ala{
+width: 640px;
+  background-color: white;
+}
+#aa21 {
+  background-color: white;
+  width: 580;
+  font-size: 26px;
+  margin-left: 30px;
+  margin-top:-1px;
+}
+#a1a {
+  background-color: white;
+  width: 640;
+}
+#aa212 {
+  margin-top: -40px;
+  margin-left: 58px;
+}
+div#wq{
+height:435px;
+border:4px solid white;
+border-radius:10px;
+overflow:hidden;
+}
+img#wq {
+  height: 400px;
+  width: 500px;
+  margin-left: 70px;
+}

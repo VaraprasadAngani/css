@@ -1,0 +1,61 @@
+ul#menu {
+  padding: 0;
+  margin: 0;
+  perspective: 780px;
+  }
+
+ul#menu li a {
+  display: inline;
+  width: 150%;
+  height: 150%;
+}
+
+ul#menu li {
+  text-indent: -1000px;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 159px;
+  margin-right: -70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+ background-position: center;
+   transform: rotateY(45deg);
+  transition: all 0.5s;
+  }
+ul#menu li:last-child,
+ul#menu li:first-child { z-index: -45; }
+ul#menu li:nth-child(2),
+ul#menu li:nth-child(5) { z-index: -46; }
+ul#menu li:nth-child(3) { z-index: 51; }
+ul#menu li:hover,
+ul#menu li:first-child:hover,
+ul#menu li:hover {
+transform: rotateX(0deg) scale(1.2);
+opacity: 1;
+}
+ul#menu li:hover ~ li {
+transform: rotateX(-45deg);
+}
+ul#menu:hover li:not(:hover) {
+ transform: rotateX(45deg);
+}
+
+ul#menu:hover li:hover ~ li {
+    transform: rotateX(-45deg);
+}
+ul#menu li:after {
+content:" ";
+  width: 200px;
+  height: 20px;
+  background: rgba(255,255,255,.5);
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+ }
+ul#menu li:nth-child(1) { background-image: url(1.jpg); }
+ul#menu li:nth-child(2) { background-image: url(2.jpg); }
+ul#menu li:nth-child(3) { background-image: url(3.png); }
+ul#menu li:nth-child(4) { background-image: url(cloudpact.jpg); }
+ul#menu li:nth-child(5) { background-image: url(ppppp.png); }
+ul#menu li:nth-child(6) { background-image: url(6.jpg); }

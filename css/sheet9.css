@@ -1,0 +1,17 @@
+.b{
+height:100px;
+width:100px;
+background-color:blue;
+position:relative;
+display:inline-block;
+margin: 1em;
+vertical-align: top;
+float:right;
+}
+.c{
+background-color:green;
+height:100px;
+width:100px;
+display:block;
+float:none;
+}

@@ -1,0 +1,24 @@
+*{
+font-family:Verdana;
+}
+.a, #b{
+color:blue;
+}
+p{
+background-color:red;
+}
+a[href$=".com"] {
+color:pink;
+}
+.color{
+color:green;
+}
+tr .fourth {
+background-color:pink;
+}
+.color + td{
+background-color:yellow;
+}
+.ad,h2+ p{
+font-size:4em;
+}  

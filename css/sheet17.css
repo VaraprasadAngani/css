@@ -1,0 +1,23 @@
+.container {
+  display: table;
+}
+.row {
+  display: table-row;
+
+}
+
+img {
+  display: table-cell;
+  height:150px;
+  width:200px;
+    padding: 3px 4px 5px 2px;
+      }
+
+  p {
+  display: table-cell;
+   height:150px;
+   width:600px;
+   text-align:justify;
+   vertical-align:top;
+     padding: 3px 4px 5px 2px;
+}

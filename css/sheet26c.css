@@ -1,0 +1,11 @@
+div{
+background-image: url('http://s3.amazonaws.com/codecademy-blog/assets/da840950.jpg');
+height:250px;
+width:250px;
+}
+p{
+color:red;
+}
+li{
+font-family:Futura;
+}

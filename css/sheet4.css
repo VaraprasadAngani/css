@@ -1,0 +1,19 @@
+.a{
+height:100px;
+width:100px;
+background-color:blue;
+display:block;
+margin: 1em;
+}
+
+.b{
+height:100px;
+width:100px;
+background-color:blue;
+display:inline-block;
+margin: 1em;
+vertical-align: top;
+}
+.c{
+display:inline;
+}

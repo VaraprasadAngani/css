@@ -1,0 +1,10 @@
+div{
+width:1500;
+height:1000;
+background-color:green;
+}
+@media(max-width: 1500px) and (min-width:1000px){
+	 @viewport {
+    width: 500px;
+	  }
+}

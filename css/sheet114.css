@@ -1,0 +1,21 @@
+p.blo{
+margin: 0;
+   position: absolute;               
+   top: 50%;                         
+   transform: translate(0, -50%)
+}
+img{
+  display: inline-block;
+    vertical-align: middle;
+	
+}
+#ff{
+height: 10em;
+   position: relative;
+   vertical-align: middle;
+   
+}
+#ss{
+display: relative;
+     
+	}

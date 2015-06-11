@@ -1,0 +1,9 @@
+.center{               
+    position: absolute;
+    height: 500px;
+    width: 400px;    
+    left: 50%;
+    top: 50%;
+    background: red;
+    transform: translate(-50%, -50%);    
+    }

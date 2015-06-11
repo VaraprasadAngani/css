@@ -1,0 +1,23 @@
+var movie=document.getElementById('movie').innerHTML;
+var date=document.getElementById('date').innerHTML;
+var show=document.getElementById('show').innerHTML;
+var inp;
+var showdate;
+var show1;
+var seatnumbers;
+inp= "MovieName is "+movie;
+showdate="date is "+date;
+show1="showTime is "+show;
+document.getElementById('display').innerHTML=inp+"<br>"+showdate+"<br>"+show1+"<br>"+seatnumbers;
+var noofseats=document.getElementById(Seats).innerHTML;
+function ChangeColor(elem){
+	  for(var i=0;i<noofseats;i++){
+	 if (elem.className != "highlight") {
+        elem.className = "highlight";
+    } else {
+        elem.className = "";
+    }
+	seatnumbers += 
+}
+document.getElementById('display').innerHTML=inp+"<br>"+showdate+"<br>"+show1+"<br>"+seatnumbers;
+}

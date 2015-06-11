@@ -1,0 +1,25 @@
+.table {
+    display:table;
+    width:150px;
+    height:150px;
+    border:1px solid #000;
+}
+.row {
+    display:table-row;
+    height:50px;
+	width:150px;
+}
+.cell1, .cell2, .cell3 {
+    display:table-cell;
+    width:50px;
+    height:50px;
+    border:1px solid #CCC;
+}
+img{
+width:50px;
+height:50px;
+}
+#ssdd{
+position:absolute;
+padding:320px 0px 0px 70px;
+}

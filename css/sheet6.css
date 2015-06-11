@@ -1,0 +1,16 @@
+body{
+	background-color:red;
+	}
+p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+	background-color:green;
+	}
+p.padding{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
